@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient( to top right,  #c0e3e7 35%, white 0%, rgb(221, 221, 221) 65%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    min-height: 100%;
+    letter-spacing: 0.08em;
+    line-height: 1.4em;
+    font-family: quick-sand, sans-serif;
+    text-align: center;
+}
+
+.cover-page{
+    /* background-color: #c0e3e7; */
+    color: black;
+    /* width: 80%; */
+    padding-top: 8%;
+    border-radius: 2%;
+    /* height: 60%; */
+    text-align: center;
+    position: fixed;  
+    left: 30%  
+}
+
+.cover-page img{
+    border-radius: 100%;
+}
+h2{
+    margin-bottom: 1%;
+}
+h4 {
+    color: #888;
+}
+
+.view-resume{
+    height: 25%;
+}
+.view-resume button, i{
+    margin-top: 2%;
+    border-style: none;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 45%;
+    border-radius: 20%;
+    font-size: larger;
+}
+button:hover{
+     background-color: rgb(158, 158, 158);
+     color: white;
+}
+a{
+text-decoration: none;
+color: black ;
+}
+a:hover{
+    background-color: rgb(158, 158, 158);
+     color: white;
+}
+
+
